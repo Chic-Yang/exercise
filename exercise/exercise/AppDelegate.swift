@@ -15,7 +15,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        setupMainViewController()
+        
         return true
     }
 
@@ -44,3 +46,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+
+// MARK: - 主窗口管理
+fileprivate extension AppDelegate {
+    
+    func setupMainViewController() {
+        window = UIWindow.init(frame: UIScreen.main.bounds)
+        let mainVC = ViewController()
+        window?.rootViewController = mainVC
+        window?.makeKeyAndVisible()
+    }
+}
