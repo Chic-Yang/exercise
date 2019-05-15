@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2DB5C154228BF29400314877 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB5C153228BF29400314877 /* AppDelegate.swift */; };
 		2DB5C156228BF29400314877 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB5C155228BF29400314877 /* ViewController.swift */; };
-		2DB5C159228BF29400314877 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB5C157228BF29400314877 /* Main.storyboard */; };
 		2DB5C15B228BF29600314877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB5C15A228BF29600314877 /* Assets.xcassets */; };
 		2DB5C15E228BF29600314877 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB5C15C228BF29600314877 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,7 +17,6 @@
 		2DB5C150228BF29400314877 /* exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DB5C153228BF29400314877 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DB5C155228BF29400314877 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2DB5C158228BF29400314877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DB5C15A228BF29600314877 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DB5C15D228BF29600314877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DB5C15F228BF29600314877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,7 +54,6 @@
 			children = (
 				2DB5C153228BF29400314877 /* AppDelegate.swift */,
 				2DB5C155228BF29400314877 /* ViewController.swift */,
-				2DB5C157228BF29400314877 /* Main.storyboard */,
 				2DB5C15A228BF29600314877 /* Assets.xcassets */,
 				2DB5C15C228BF29600314877 /* LaunchScreen.storyboard */,
 				2DB5C15F228BF29600314877 /* Info.plist */,
@@ -124,7 +121,6 @@
 			files = (
 				2DB5C15E228BF29600314877 /* LaunchScreen.storyboard in Resources */,
 				2DB5C15B228BF29600314877 /* Assets.xcassets in Resources */,
-				2DB5C159228BF29400314877 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,14 +139,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2DB5C157228BF29400314877 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2DB5C158228BF29400314877 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2DB5C15C228BF29600314877 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -285,6 +273,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LK8G978AMR;
 				INFOPLIST_FILE = exercise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +292,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LK8G978AMR;
 				INFOPLIST_FILE = exercise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
